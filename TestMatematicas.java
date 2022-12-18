@@ -12,13 +12,29 @@ public class TestMatematicas
 
         if(Matematicas.esPar(numero))
         {
-            System.out.println( "EL Numero " + numero + " Es Par ");
+            System.out.println( "\nEL Numero " + numero + " Es Par ");
         }
         else
         {
-            System.out.println("El Numero " + numero + " Es Impar");
+            System.out.println("\nEl Numero " + numero + " Es Impar");
         }
 
+        if (Matematicas.esDivisiblePorTres(numero))
+        {
+            System.out.println("\nEl Numero " + numero + " Es Divisible por 3");
+        }
+        else
+        {
+            System.out.println("\nEl Numero " + numero + " No es Divisible por 3");
+        }
 
+        if (Matematicas.esDivisiblePorCinco(numero))
+        {
+            System.out.println("\nEl Numero " + numero + " Es Divisible por 5");
+        }
+        else
+        {
+            System.out.println("\nEl Numero " + numero + " No es Divisible por 5");
+        }
     }
 }
