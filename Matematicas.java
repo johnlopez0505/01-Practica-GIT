@@ -1,12 +1,11 @@
 
 package practicaGit;
 
-public class Matematicas.java
+public class Matematicas
 {
-	public statipublic static boolean esPar(int numero)
+	public static boolean esPar(int numero)
 	{
-	
-
+		return numero % 2 == 0;
 	}
 
 }
